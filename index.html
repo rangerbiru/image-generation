@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Generator | Project Kelas 11</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="image-generator">
+      <div class="content">
+        <h1>Image Generator With Javascript</h1>
+
+        <p>
+          Cari gambar yang anda inginkan dengan cara menuliskan gambar apa yang
+          anda butuhkan
+        </p>
+
+        <form action="#" class="generate-form">
+          <input
+            type="text"
+            name=""
+            class="prompt-input"
+            placeholder="Deskripsikan Gambar Anda"
+            required
+          />
+
+          <div class="controls">
+            <select class="img-quantity">
+              <option value="5">5 Image</option>
+              <option value="10">10 Image</option>
+              <option value="15">15 Image</option>
+              <option value="20">20 Image</option>
+            </select>
+
+            <button type="submit" class="generate-btn">Generate</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <div id="hasil"></div>
+
+    <!-- Section Image -->
+    <section class="image-gallery">
+      <h2>Gambar Kosong</h2>
+    </section>
+    <div class="pagination"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
